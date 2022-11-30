@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #000;
+    color: #AC95BB;
+    width: 100%;
+    height: 13vh;
+}
+
+#logotipo {
+    width: 8%;
+    height: 9vh;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.classUlNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: red 1px solid;
+}
+
+.classLiNav {
+    display: flex;
+    list-style: none;
+    border: green 2px solid;
+}
+
+#buscar {
+    border-color: #AC95BB;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    padding-left: 3rem;
+}
+
+.divIconsNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.iconsNav{
+    width: 27%;
+    height: 5.5vh;
+}
