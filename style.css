@@ -18,7 +18,7 @@ header {
     background-color: #ffffff;
     width: 100%;
     height: 13vh;
-    z-index: 1; /* voltar aqui depois */
+    z-index: 1; 
 }
 
 #logotipo {
@@ -430,12 +430,87 @@ header {
 
 /* galery starts */
 
+#galery{
+    display: flex;
+    position: relative;
+    top: 25rem;
+    left: 2rem;
+    margin-right: 1rem;
+}
+
+.galeryCollum1{ /* 1 */
+    display: grid;
+}
+
+.galeryCollum2{ /* 2 */
+    display: grid;
+}
+
+.galeryCollum3{ /* 3 */
+    display: grid;
+    
+}
+
+.galeryCollum4{ /* 4 */
+    display: grid;
+    
+}
+
+.galeryCollum5{ /* 5 */
+    display: grid;
+    
+}
+
+#imgGalery1{
+    width: 80%;
+}
+
+#imgGalery2{
+    width: 80%;
+}
+
+#imgGalery3{
+    width: 80%;
+}
+
+#imgGalery4{
+    width: 80%;
+}
+
+#imgGalery5{
+    width: 80%;
+}
+
+#imgGalery6{
+    width: 80%;
+}
+
+#imgGalery7{
+    width: 80%;
+}
+
+#imgGalery8{
+    width: 80%;
+}
+
+#imgGalery9{
+    width: 80%;
+}
+
+#imgGalery10{
+    width: 80%;
+}
+
+/* galery ends */
+
 /* footer starts */
 
 #footer{
     display: flex;
+    position: relative;
     width: 100%;
     height: 6vw;
+    top: 28rem;
     background-color: #9767A9;
 }
 
