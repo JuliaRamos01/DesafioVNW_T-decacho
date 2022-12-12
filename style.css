@@ -520,14 +520,21 @@ header {
     font-size: 0.7rem;
 }
 
-.footerButtons{
+.footerButton1{
     display: flex;
     align-items: center;
     border: red 1px solid;
 }
-
-.footerButton1{
+.footerButton2{
     display: flex;
+    align-items: center;
+    border: blue 1px solid;
+}
+
+.footerButton3{
+    display: flex;
+    align-items: center;
+    border: palevioletred 1px solid;
 }
 
 .footerButton1 img{
@@ -542,22 +549,24 @@ header {
     display: none;
 }
 
+/* footer ends */
 
-@media(min-width: 201px) and (max-width: 500px) {
+
+@media (min-width: 201px) and (max-width: 500px) {
 
     header {
         display: flex;
-        align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 5vh;
+        height: 7vh;
+        background-color: #9767A9;
     }
 
     #logotipo {
-        width: 10vh;
+        width: 8vh;
         /*18*/
-        height: 2vh;
-        margin-left: 0;
+        height: 7vh; 
+        
     }
 
     .classUlNav {
@@ -577,8 +586,319 @@ header {
     }
 
     #cabeludo {
-        width: 150vw;
+        width: 170vw;
         height: 110vw;
-        align-items: center;
     }
+
+    .sectionOneText1 {
+        position: relative;
+        width: 30%; /* parei aqui */
+        
+    }
+    
+    .sectionOneText1 p {
+        color: black;
+    }
+    
+    .sectionOneText2 {
+        display: none;
+    }
+    
+    .sectionOneText2 p {
+        display: none;
+    }
+    
+    /* header ends */
+    
+    /* sectionpurple starts */
+    
+    .sectionPurple {
+        display: none;
+    }
+    
+    .sectionPurple1 {
+        display: none;
+    }
+    
+    .sectionPurple2 {
+        display: none;
+    }
+    
+    .sectionPurple1 p {
+        display: none;
+    }
+    
+    .sectionPurple2 p {
+        display: none;
+    }
+    /* sectionpurple ends */
+    
+    /* sectionPhotos starts */
+    
+    .sectionPhotos {
+        display: none;
+    }
+    
+    .sectionPhotosImg {
+        display: none;
+    }
+    
+    .sectionPhotos1 {
+        display: none;
+    }
+    
+    .sectionPhotos1 img{
+        display: none;
+    }
+    
+    .sectionPhotosTxt1 {
+        display: none;
+    }
+    
+    .sectionPhotosTxt1 h2{
+        display: none;
+    }
+    
+    .sectionPhotosTxt1 p{
+        display: none;
+    }
+    
+    .sectionPhotos2 {  /* 2 */
+        display: none;
+    }
+    
+    .sectionPhotos2 img{
+        display: none;
+    }
+    
+    .sectionPhotosTxt2 {
+        display: none;
+    }
+    
+    .sectionPhotosTxt2 h2{
+        display: none;
+    }
+    
+    .sectionPhotosTxt2 p{
+        display: none;
+    }
+    
+    .sectionPhotos3 { /* 3 */
+        display: none;
+    }
+    
+    .sectionPhotos3 img{
+        display: none;
+    }
+    
+    .sectionPhotosTxt3 {
+        display: none;
+    }
+    
+    .sectionPhotosTxt3 h2{
+        display: none;
+    }
+    
+    .sectionPhotosTxt3 p{
+        display: none;
+    }
+    
+    .sectionPhotos4 {  /* 4 */
+        display: none;
+    }
+    
+    .sectionPhotos4 img{
+        display: none;
+    }
+    
+    .sectionPhotosTxt4 {
+        display: none;
+    }
+    
+    .sectionPhotosTxt4 h2{
+        display: none;
+    }
+    
+    .sectionPhotosTxt4 p{
+        display: none;
+    }
+    
+    .sectionPhotos5 { /* 5 */
+        display: none;
+    }
+    
+    .sectionPhotos5 img{
+        display: none;
+    }
+    
+    .sectionPhotosTxt5 {
+        display: none;
+    }
+    
+    .sectionPhotosTxt5 h2{
+        display: none;
+    }
+    
+    .sectionPhotosTxt5 p{
+        display: none;
+    }
+    
+    .sectionPhotos6 {  /* 6 */
+        display: none;
+    }
+    
+    .sectionPhotos6 img{
+        display: none;
+    }
+    
+    .sectionPhotosTxt6 {
+        display: none;
+    }
+    
+    .sectionPhotosTxt6 h2{
+        display: none;
+    }
+    
+    .sectionPhotosTxt6 p{
+        display: none;
+    }
+    
+    .sectionPhotos7 { /* 7 */
+        display: none;
+    }
+    
+    .sectionPhotos7 img{
+        display: none;
+    }
+    
+    .sectionPhotosTxt7 {
+        display: none;
+    }
+    
+    .sectionPhotosTxt7 h2{
+        display: none;
+    }
+    
+    .sectionPhotosTxt7 p{
+        display: none;
+    }
+    
+    .sectionPhotos8 img{ /* 8 img */
+        display: none;
+    }
+    /* sectionPhotos ends */
+    
+    /* galery starts */
+    
+    #galery{
+        display: none;
+    }
+    
+    .galeryCollum1{ /* 1 */
+        display: grid;
+    }
+    
+    .galeryCollum2{ /* 2 */
+        display: grid;
+    }
+    
+    .galeryCollum3{ /* 3 */
+        display: grid;
+        
+    }
+    
+    .galeryCollum4{ /* 4 */
+        display: grid;
+        
+    }
+    
+    .galeryCollum5{ /* 5 */
+        display: grid;
+        
+    }
+    
+    #imgGalery1{
+        width: 80%;
+    }
+    
+    #imgGalery2{
+        width: 80%;
+    }
+    
+    #imgGalery3{
+        width: 80%;
+    }
+    
+    #imgGalery4{
+        width: 80%;
+    }
+    
+    #imgGalery5{
+        width: 80%;
+    }
+    
+    #imgGalery6{
+        width: 80%;
+    }
+    
+    #imgGalery7{
+        width: 80%;
+    }
+    
+    #imgGalery8{
+        width: 80%;
+    }
+    
+    #imgGalery9{
+        width: 80%;
+    }
+    
+    #imgGalery10{
+        width: 80%;
+    }
+    
+    /* galery ends */
+    
+    /* footer starts */
+    
+    #footer{
+        display: none;
+    }
+    
+    .footerP{
+        margin-top: 2vw;
+        color: #ffffff;
+        font-size: 0.7rem;
+    }
+    
+    .footerButton1{
+        display: flex;
+        align-items: center;
+        border: red 1px solid;
+    }
+    .footerButton2{
+        display: flex;
+        align-items: center;
+        border: blue 1px solid;
+    }
+    
+    .footerButton3{
+        display: flex;
+        align-items: center;
+        border: palevioletred 1px solid;
+    }
+    
+    .footerButton1 img{
+        display: none;
+    }
+    
+    .footerButton2 img{
+        display: none;
+    }
+    
+    .footerButton3 img{
+        display: none;
+    }
+    
+    /* footer ends */
 }
